@@ -15,3 +15,5 @@ exports.listen = function () {
 exports.close = function (callback) {
   this.server.close(callback);
 };
+
+this.listen();
